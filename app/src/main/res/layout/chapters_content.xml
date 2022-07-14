@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:context=".Chapters_content"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:id="@+id/chapters_content"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+        </ScrollView>
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:layout_gravity="left|bottom"
+        android:layout_margin="16dp"
+        app:fabSize="normal"
+        app:elevation="7dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_24"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forward"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="16dp"
+        app:fabSize="normal"
+        app:elevation="7dp"
+        android:src="@drawable/ic_baseline_arrow_forward_ios_24"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+
+
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="chapter_numbers">
+        <item>CHAPTER 1</item>
+        <item>CHAPTER 2</item>
+        <item>CHAPTER 3</item>
+        <item>CHAPTER 4</item>
+        <item>CHAPTER 5</item>
+        <item>CHAPTER 6</item>
+        <item>CHAPTER 7</item>
+        <item>CHAPTER 8</item>
+        <item>CHAPTER 9</item>
+    </string-array>
+</resources>
